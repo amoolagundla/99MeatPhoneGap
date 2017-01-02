@@ -27,7 +27,7 @@
         <variable name="APP_ID" value="1828020577450397" />
         <variable name="APP_NAME" value="com.99Meat.app" />
     </plugin>
-		<plugin name="undefined" version="https://github.com/razorpay/razorpay-cordova.git" source="npm"  />
+		<plugin name="com.razorpay.cordova" version="https://github.com/razorpay/razorpay-cordova.git" source="npm"  />
 
 		<preference name="phonegap-version" value="cli-6.3.0" />
 		<preference name="android-build-tool" value="gradle" />
@@ -62,14 +62,7 @@
 		<preference name="BackgroundColor" value="0x000000" />
 		<preference name="DisallowOverscroll" value="true" />
 		<preference name="LoadingDialog" value="Please Wait," />
-		<preference name="LoadUrlTimeoutValue" value="null" />
-		<platform name="ios">
-				</platform>
-		<platform name="android">
-		</platform>
-		<platform name="winphone">
-			</platform>
-		 <icon src="icon.png" />
+		<preference name="LoadUrlTimeoutValue" value="null" />	
 		<allow-intent href="http://*/*" />
 		<allow-intent href="https://*/*" />
 		<allow-intent href="tel:*" />
